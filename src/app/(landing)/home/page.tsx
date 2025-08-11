@@ -1,5 +1,4 @@
 "use client";
-import { useState } from "react";
 import Link from "next/link";
 
 // Remove bot-related imports
@@ -37,7 +36,6 @@ const Homepage = () => {
           A little bit about me & Cogni Norway
         </h2>
         <p className="text-gray-600 text-base sm:text-lg leading-relaxed text-center max-w-3xl mb-8 sm:mb-10 animate-slideUp animation-delay-200">
-          // Add content from presentation about Haleema Saadia and Cogni Norway
           Haleema Saadia presenting Synli AI, an innovative AI tool from Cogni Norway AS.
         </p>
       </div>
@@ -241,14 +239,7 @@ const Homepage = () => {
         </h2>
       </div>
 
-      // Remove bot-related modal
-      // {showModal && (
-      //   <MobileModal showModal={showModal} setShowModal={setShowModal} />
-      // )}
 
-      // Remove bot sections
-      // <Recordings />
-      // <WhyChooseUs />
     </div>
   );
 };

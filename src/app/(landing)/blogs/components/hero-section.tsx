@@ -1,6 +1,4 @@
-import { AlertTriangle } from "lucide-react";
-// Remove import
-// import { InteractiveCallDemo } from "./interactive-demo";
+
 
 export const HeroSection = () => {
   return (

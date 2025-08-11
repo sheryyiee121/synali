@@ -1,6 +1,5 @@
 "use client";
-import { Badge } from "@/components/ui/badge";
-import { Play } from "lucide-react";
+
 import { useEffect } from "react";
 import { AboutSection } from "./(landing)/blogs/components/about-section";
 import { AnimatedBackground } from "./(landing)/blogs/components/animated-background";
