@@ -25,7 +25,7 @@ const Homepage = () => {
             href="/signup"
             className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 sm:py-4 sm:px-10 rounded-full transform hover:scale-105 transition-transform duration-300 animate-slideUp animation-delay-400"
           >
-            Get Started
+            Chat with Us
           </Link>
         </div>
       </div>
@@ -135,30 +135,7 @@ const Homepage = () => {
         </ul>
       </div>
 
-      {/* Pricing Section */}
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 py-12 sm:py-20 bg-gray-50">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 sm:mb-12 animate-slideUp text-indigo-800">
-          How Much Do Customers Pay?
-        </h2>
-        <ul className="list-disc max-w-3xl mx-auto pl-6 space-y-4">
-          <li>Freemium Plan: Free access to basic influencer discovery and analytics</li>
-          <li>Pay-Per-Use Model: Businesses can pay per influencer collaboration or campaign
-            <ul className="list-circle pl-6">
-              <li>Micro Campaigns (1-2 influencers): NOK 1,500 – NOK 3,500</li>
-              <li>Standard Campaigns (3-5 influencers): NOK 4,000 – NOK 8,000</li>
-              <li>Premium Campaigns (5+ influencers with advanced AI insights): NOK 10,000+</li>
-            </ul>
-          </li>
-          <li>Subscription Models (for agencies and frequent users):
-            <ul className="list-circle pl-6">
-              <li>Basic Plan: NOK 999/month (Limited influencer searches & campaign tracking)</li>
-              <li>Pro Plan: NOK 2,499/month (Advanced AI analytics, ROI predictions, influencer vetting)</li>
-              <li>Enterprise Plan: Custom pricing for large agencies and brands</li>
-            </ul>
-          </li>
-          <li>Consulting Services</li>
-        </ul>
-      </div>
+
 
       {/* Competitors Section */}
       <div className="max-w-7xl mx-auto px-6 sm:px-8 py-12 sm:py-20 bg-white">

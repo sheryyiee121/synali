@@ -30,34 +30,19 @@ export const Navigation = () => {
             >
               Features
             </a>
-            <a
-              href="#pricing"
-              className="text-muted-foreground hover:text-pink-500 transition-colors font-medium"
-            >
-              Pricing
-            </a>
             {/* <a
-              href="#testimonials"
-              className="text-muted-foreground hover:text-blue-500 transition-colors font-medium"
-            >
-              Testimonials
-            </a> */}
+               href="#testimonials"
+               className="text-muted-foreground hover:text-blue-500 transition-colors font-medium"
+             >
+               Testimonials
+             </a> */}
             {/* <ThemeToggle /> */}
-            <Link href={"/auth/login"}>
-              <Button
-                variant="outline"
-                size="sm"
-                className="border-indigo-500/30 hover:bg-indigo-500/10"
-              >
-                Sign In
-              </Button>
-            </Link>
             <Link href={"/dashboard"}>
               <Button
                 size="sm"
                 className="bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-600 hover:to-purple-600"
               >
-                Get Started
+                Chat with Us
               </Button>
             </Link>
           </div>
@@ -94,12 +79,6 @@ export const Navigation = () => {
                 Features
               </a>
               <a
-                href="#pricing"
-                className="block px-3 py-2 text-muted-foreground hover:text-pink-500"
-              >
-                Pricing
-              </a>
-              <a
                 href="#testimonials"
                 className="block px-3 py-2 text-muted-foreground hover:text-blue-500"
               >
@@ -107,17 +86,10 @@ export const Navigation = () => {
               </a>
               <div className="pt-4 space-y-2">
                 <Button
-                  variant="outline"
-                  className="w-full border-indigo-500/30"
-                  size="sm"
-                >
-                  Sign In
-                </Button>
-                <Button
                   className="w-full bg-gradient-to-r from-indigo-500 to-purple-500"
                   size="sm"
                 >
-                  Get Started
+                  Chat with Us
                 </Button>
               </div>
             </div>

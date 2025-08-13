@@ -24,7 +24,7 @@ export const HeroSection = () => {
             className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-in"
             style={{ animationDelay: "0.3s" }}
           >
-            Easy, affordable and effective marketing solution designed for small business owners. Influencer.AI by Cogni Norway AS.
+            Easy, affordable and effective marketing solution designed for small business owners. Synli AI by Cogni Norway AS
           </p>
 
           {/* Remove alert and demo */}
@@ -43,7 +43,7 @@ export const HeroSection = () => {
             href="/signup"
             className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full text-lg"
           >
-            Get Started
+            Chat with Us
           </a>
         </div>
       </div>
